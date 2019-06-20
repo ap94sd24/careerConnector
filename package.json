@@ -4,7 +4,8 @@
   "description": "A career social networking platform for developers and other professionals",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "server": "nodemon server"
   },
   "author": "Adam Pan",
   "license": "MIT",
