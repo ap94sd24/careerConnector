@@ -1,6 +1,10 @@
-# Career Connector
+# Career Connector MERN App
 
-A career builder web platform that connects like-minded individuals looking to get resume critiques and networking.
+A career builder web platform that connects like-minded individuals looking to get resume critiques and networking. <br>
+
+-Stack: MERN
+-Database: MongoDB Atlas (cloud server)
+
 
 ## Quick Overview
 
