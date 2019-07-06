@@ -3,8 +3,8 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/layouts/Navbar';
 import Landing from './components/layouts/Landing';
-import Login from './components/auth/login';
-import Register from './components/auth/register';
+import Login from './components/auth/Login';
+import Register from './components/auth/Register';
 
 const App = () => (
   <Router>
