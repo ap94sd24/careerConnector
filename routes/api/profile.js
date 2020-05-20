@@ -117,7 +117,7 @@ router.post(
 
 /**
  * @route GET api/profile
- * @desc  Get all profile
+ * @desc  Get all profiles
  *  @access Public
  */
 router.get('/', async (req, res) => {
@@ -137,7 +137,7 @@ router.get('/', async (req, res) => {
  */
 router.get('/user/:user_id', async (req, res) => {
   try {
-    const profile = await Profile.find({
+    const profile = await Profile.findOne({
       user: req.params.user_id,
     }).populate('user', ['name', 'avatar']);
 

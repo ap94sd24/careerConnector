@@ -1,6 +1,0 @@
-{
-  "mongoURI": "mongodb://apuser:A.P-924xy@backend-shard-00-00-srnmf.mongodb.net:27017,backend-shard-00-01-srnmf.mongodb.net:27017,backend-shard-00-02-srnmf.mongodb.net:27017/test?ssl=true&replicaSet=backend-shard-0&authSource=admin&retryWrites=true&w=majority",
-  "jwtToken": "secrettoken9424",
-  "githubClientId": "49dd4c4ba02fffe6071d",
-  "githubSecret": "2bbfc99f58378bf77d70d5c0780e43502ae9b979"
-}

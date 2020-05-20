@@ -1,7 +1,7 @@
 import {
   GET_PROFILE,
   GET_PROFILES,
-  GET_REPO,
+  GET_REPOS,
   PROFILE_ERROR,
   CLEAR_PROFILE,
   UPDATE_PROFILE,
@@ -45,7 +45,7 @@ export default function (state = initialState, action) {
         repos: [],
         loading: false,
       };
-    case GET_REPO:
+    case GET_REPOS:
       return {
         ...state,
         repos: payload,
