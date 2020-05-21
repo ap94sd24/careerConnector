@@ -37,6 +37,7 @@ export default function (state = initialState, action) {
         ...state,
         error: payload,
         loading: false,
+        profile: null // added to fix new user regis bug
       };
     case CLEAR_PROFILE:
       return {

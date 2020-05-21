@@ -11,7 +11,7 @@ import {
   ACCOUNT_DELETED,
 } from './types';
 
-// get current users profile
+// get current user's profile
 export const getCurrentProfile = () => async (dispatch) => {
   try {
     const res = await axios.get('/api/profile/me');
@@ -20,7 +20,9 @@ export const getCurrentProfile = () => async (dispatch) => {
       type: GET_PROFILE,
       payload: res.data,
     });
+    console.log('Current profile: ' + JSON.stringify(res.data, null, 2));
   } catch (err) {
+    dispatch({ type: CLEAR_PROFILE });
     dispatch({
       type: PROFILE_ERROR,
       payload: { msg: err.response.statusText, status: err.response.status },

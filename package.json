@@ -12,6 +12,7 @@
   "author": "Adam Pan",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.19.2",
     "bcryptjs": "^2.4.3",
     "config": "^3.1.0",
     "express": "^4.17.1",
