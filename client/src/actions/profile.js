@@ -20,7 +20,6 @@ export const getCurrentProfile = () => async (dispatch) => {
       type: GET_PROFILE,
       payload: res.data,
     });
-    console.log('Current profile: ' + JSON.stringify(res.data, null, 2));
   } catch (err) {
     dispatch({ type: CLEAR_PROFILE });
     dispatch({
