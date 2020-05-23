@@ -8,7 +8,7 @@ const Landing = ({ isAuthenticated }) => {
     return <Redirect to='/dashboard' />
   }
   return (
-    <section className='landing'>
+    <section className='landing' style={{overflow: 'hidden !important'}}>
       <div className='dark-overlay'>
         <div className='landing-inner'>
           <h1 className='x-large'>Career Connector</h1>

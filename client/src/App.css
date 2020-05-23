@@ -13,6 +13,11 @@
   padding: 0;
 }
 
+html, #root {
+  background-color: #ddd2c4;
+  
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
@@ -34,11 +39,12 @@ img {
   width: 100%;
 }
 
+
 /* Utilities */
 .container {
   max-width: 1100px;
   margin: auto;
-  overflow: hidden;
+  overflow: scroll !important;
   padding: 0 2rem;
   margin-top: 6rem;
   margin-bottom: 3rem;
@@ -510,6 +516,7 @@ button {
 @media (max-width: 700px) {
   .container {
     margin-top: 8rem;
+    overflow: auto !important;
   }
 
   .hide-sm {
