@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 
 // import axios from 'axios';
 
-const Register = ({ setAlert, register, isAuthenticated }) => {
+const RegisterUser = ({ setAlert, register, isAuthenticated }) => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -92,7 +92,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
   );
 };
 
-Register.propTypes = {
+RegisterUser.propTypes = {
   setAlert: PropTypes.func.isRequired,
   register: PropTypes.func.isRequired,
   isAuthenticated: PropTypes.bool
@@ -105,4 +105,4 @@ const mapStateToProps = state => ({
 export default connect(
   mapStateToProps,
   { setAlert, register }
-)(Register);
+)(RegisterUser);

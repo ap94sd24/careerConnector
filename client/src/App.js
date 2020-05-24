@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/layouts/Navbar';
 import Landing from './components/layouts/Landing';
 import Login from './components/auth/LoginUser';
-import Register from './components/auth/Register';
+import Register from './components/auth/RegisterUser';
 import Alert from './components/layouts/alert';
 import Dashboard from './components/dashboard/Dashboard';
 import PrivateRoute from './components/routing/PrivateRoute';
